@@ -117,7 +117,7 @@ def process_dir(top_dir, opts):
      <body>
       <div class="content">
        <h1>{curr_dir}</h1>
-       <li><a style="display:block; width:100%" href="..">&#x21B0;</a></li>'''.format(
+       <li><a style="display:block; width:100%" href="../index.html">&#x21B0;</a></li>'''.format(
                 css=CSS,
                 curr_dir=os.path.basename(os.path.abspath(parentdir))
             )
